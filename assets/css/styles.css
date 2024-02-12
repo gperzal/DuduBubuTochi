@@ -1,0 +1,102 @@
+/* Botones.css */
+body {
+    background:  rgb(234, 223, 153);
+}
+
+
+#contenedor-gif {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* min-height: 100vh; */
+}
+
+button 
+
+{
+ 
+    margin: 10px;
+    margin-top: 50px;
+    cursor: pointer;
+ 
+}
+
+h1{
+  margin-top: 100px;
+  display: flex;
+  justify-content: center; /* Esto centra los botones horizontalmente */
+}
+
+#contenedor-botones {
+  display: flex;
+  justify-content: center; /* Esto centra los botones horizontalmente */
+}
+
+/* Efecti de Texto */
+
+#texto-escritura {
+    font-family: 'Courier New', monospace;
+    font-size: larger ;
+    font-weight: 500;
+    white-space: pre; /* Asegura que los espacios en blanco sean respetados */
+    text-align:start;
+    
+}
+
+#texto:after {
+    content: '|';
+    animation: blink 1s infinite step-start;
+}
+
+@keyframes blink {
+    50% { opacity: 0; }
+}
+
+
+
+/* NAV*/
+
+
+.navbar-nav a {
+  color: #fff ; 
+}
+
+.navbar span {
+  font-family: 'Anton', sans-serif;
+  font-size: xx-large;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* Esto es para separar el logo y los enlaces */
+}
+
+.navbar-brand {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-brand img {
+  max-width: 150px; 
+  height: 50px; /* Ajusta esto según el tamaño de tu logo */
+  margin-right: 10px; /* Espacio entre el logo y el texto, ajusta según sea necesario */
+}
+
+.navbar-nav {
+  display: flex;
+}
+
+.nav-link {
+  display: flex;
+  align-items: center;
+  padding: 0 10px; /* Espacio horizontal dentro de los enlaces */
+  /* Agrega cualquier otro estilo que necesites para tus enlaces */
+}
+
+
+ul{
+  text-decoration: none;
+}
